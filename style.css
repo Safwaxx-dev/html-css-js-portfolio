@@ -26,3 +26,9 @@
 .nav-link:hover::after {
   width: 100%;
 }
+.btn{
+  border-radius: 40%;
+}
+.custom-size{
+  max-width: 10%;
+}
