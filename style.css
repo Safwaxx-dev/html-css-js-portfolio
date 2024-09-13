@@ -6,6 +6,23 @@
 .img-round{
   border-radius: 50%;
 }
-.hover{
-  
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: black; /* Change this to your preferred color */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: black; /* Change this to the color you want for the underline */
+  left: 0;
+  bottom: -1px; /* Adjusts the space between the link and underline */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
