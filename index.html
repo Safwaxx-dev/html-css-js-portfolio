@@ -11,9 +11,8 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
-    <header>
+    <header id="home">
         <nav class="navbar container pt-4">
             <div class="container-fluid">
                 <a class="navbar-brand text-dark fs-1" href="#">Im Safwax</a>
@@ -35,13 +34,13 @@
                                 <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item p-2 fs-5">
-                                <a class="nav-link text-white" href="#">About Me </a>
+                                <a class="nav-link text-white" href="#aboutme">About Me </a>
                             </li>
                             <li class="nav-item p-2 fs-5">
-                                <a class="nav-link text-white" href="#">Experience</a>
+                                <a class="nav-link text-white" href="#experience">Experience</a>
                             </li>
                             <li class="nav-item p-2 fs-5">
-                                <a class="nav-link text-white" href="#">Contact</a>
+                                <a class="nav-link text-white" href="#contact">Contact</a>
                             </li>
                             
                         </ul>
@@ -91,7 +90,7 @@
 
     <section class="container pb-3">
 
-        <div class="col about-me">
+        <div  id="aboutme"  class="col about-me">
             <p class=" d-flex justify-content-center text-muted fw-bold">Get to Know More</p>
             <h1 class="fw-bolder fs-1 d-flex justify-content-center">About Me</h1>
         </div>
@@ -127,7 +126,7 @@
 
     </section>
     <!-- Exerperience -->
-    <article class="pt-5">
+    <article class="pt-5" id="experience">
         <div class="col about-me"></div>
         <p class=" d-flex justify-content-center text-muted fw-bold">Explore My</p>
         <h1 class="fw-bolder fs-1 d-flex justify-content-center pb-2">Experience</h1>
@@ -196,7 +195,7 @@
 
     <!-- Contact Me  -->
 
-    <section>
+    <section id="contact">
         <div class="col about-me">
             <p class=" d-flex justify-content-center text-muted fw-bold">Get in Touch</p>
             <p class="fw-bolder fs-1 d-flex justify-content-center h1 pb-2">Contact Me</p>
@@ -228,22 +227,21 @@
     <div class="d-flex justify-content-center flex-wrap mt-4">
         <ul class="navbar-nav flex-sm-row  flex-md-row  flex-lg-row flex-column align-items-center">
             <li class="nav-item pe-sm-3  pe-md-3  pe-lg-3 mb-2">
-                <a class="nav-link fs-4 hover" href="#">Home</a>
+                <a class="nav-link fs-4 hover" href="#home">Home</a>
             </li>
             <li class="nav-item  pe-sm-3  pe-md-3  pe-lg-3 mb-2">
-                <a class="nav-link fs-4 hover" href="#">About Me</a>
+                <a class="nav-link fs-4 hover" href="#aboutme">About Me</a>
             </li>
             <li class="nav-item pe-sm-3   pe-md-3  pe-lg-3 mb-2">
-                <a class="nav-link fs-4 hover" href="#">Experience</a>
+                <a class="nav-link fs-4 hover" href="#experience">Experience</a>
             </li>
             <li class="nav-item  pe-sm-3  pe-md-3  pe-lg-3 mb-2">
-                <a class="nav-link fs-4 hover" href="#">Contact</a>
+                <a class="nav-link fs-4 hover" href="#contact">Contact</a>
             </li>
         </ul>
     </div>
     
     
-    <div class="empty-padding"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
