@@ -45,3 +45,46 @@
 .empty-padding{
   padding: 300px;
 }
+.pop-overlay{
+ display: none;
+  position: fixed;
+  background-color: black;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+}
+.side-bar{
+  
+  background-color: #1d1a1d;
+  position: fixed;
+  top: 0;
+  right: -175px;
+  width: 60%;
+  height: 100%;
+  z-index: 2;
+  color: white;
+  transition: 2s ;
+}
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: black; /* Change this to your preferred color */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: black; /* Change this to the color you want for the underline */
+  left: 0;
+  bottom: -1px; /* Adjusts the space between the link and underline */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
