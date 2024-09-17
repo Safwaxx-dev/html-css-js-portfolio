@@ -61,12 +61,12 @@
   background-color: #1d1a1d;
   position: fixed;
   top: 0;
-  right: -175px;
+  right: -585px;
   width: 60%;
   height: 100%;
   z-index: 2;
   color: white;
-  transition: 2s ;
+  transition: 1s ;
 }
 .nav-link {
   position: relative;
