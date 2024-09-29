@@ -34,14 +34,16 @@
     <!-- Side Bar -->
     <div class="pop-overlay d-lg-none " id="overlay"></div>
     <div class="side-bar d-lg-none" id="sideMenu">
-        <button class="btn  btn-dark rounded-circle text-white position-absolute top-0 end-0 m-3 m-md-3 mt-md-4" id="closeBtn">X</button>
+        <button class="btn  btn-dark rounded-circle text-white position-absolute top-0 end-0 m-3 m-md-3 mt-md-4"
+            id="closeBtn">X</button>
         <p class="fs-4 navbar-brand p-3 p-sm-4" id="home" href="#home">Portfolio</p>
 
         <div class=" navbar-collapse">
             <ul class="navbar-nav ms-3 ps-sm-3  ">
                 <li class="nav-item p-sm-1" id="tohome"><a class="fs-5 nav-link" href="#home">Home</a></li>
                 <li class="nav-item p-sm-1" id="about"><a class="fs-5 nav-link" href="#aboutme">About Me</a></li>
-                <li class="nav-item p-sm-1" id="experienc"><a class="fs-5 nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item p-sm-1" id="experienc"><a class="fs-5 nav-link" href="#experience">Experience</a>
+                </li>
                 <li class="nav-item p-sm-1" id="contactme"><a class="fs-5 nav-link" href="#contact">Contact Me</a></li>
             </ul>
         </div>
@@ -126,70 +128,93 @@
     <!-- Exerperience -->
     <article class="pt-5" id="experience">
         <div class="col about-me"></div>
-        <p class=" d-flex justify-content-center text-muted fw-bold">Explore My</p>
+        <p class="d-flex justify-content-center text-muted fw-bold">Explore My</p>
         <h1 class="fw-bolder fs-1 d-flex justify-content-center pb-2">Experience</h1>
-        </div>
-        <div class="pb-5 d-flex justify-content-center ">
-            <div class="col-12 m-3  img-radius p-4  w-75 border border-secondary " style="text-align: center;">
-                <h4 class="fw-bolder text-muted ">Technical Skills</h4>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                        <article>
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/checkmark.png" alt="Check Mark" class="icon margin">
-                                <p class="h6 pt-2">HTML</p>
-                            </div>
-                            <p class="ps-5">Experienced</p>
-                        </article>
-                        <article>
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/checkmark.png" alt="Check Mark" class="icon margin">
-                                <p class="h6 pt-2">CSS</p>
-                            </div>
-                            <p class="ps-5">Experienced</p>
-                        </article>
-                        <article>
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/checkmark.png" alt="Check Mark" class="icon margin">
-                                <p class="h6 pt-2">Bootstrap</p>
-                            </div>
-                            <p class="ps-5">Intermediate</p>
-                        </article>
-                        <article>
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/checkmark.png" alt="Check Mark" class="icon margin">
-                                <p class="h6 pt-2">JavaScript</p>
-                            </div>
-                            <p class="ps-5">Intermediate</p>
-                        </article>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                        <article>
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/checkmark.png" alt="Check Mark" class="icon margin">
-                                <p class="h6 pt-2">Python</p>
-                            </div>
-                            <p class="ps-5">Intermediate</p>
-                        </article>
-                        <article>
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/checkmark.png" alt="Check Mark" class="icon margin">
-                                <p class="h6 pt-2">SQL</p>
-                            </div>
-                            <p class="ps-5">Intermediate</p>
-                        </article>
-                        <article>
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/checkmark.png" alt="Check Mark" class="icon margin">
-                                <p class="h6 pt-2">Github</p>
-                            </div>
-                            <p class="ps-5">Experienced</p>
-                        </article>
+
+        <div class="pb-5 d-flex justify-content-center">
+            <div class="col-12 m-3 img-radius p-4 ps-5 w-75 border border-secondary" style="text-align: center;">
+                <h4 class="fw-bolder text-muted">Technical Skills</h4>
+
+                <!-- Flex container for responsive layout -->
+                <div class="d-flex pt-4 justify-content-center">
+                    <div class="row w-100">
+                        <!-- Left Column (sm: full width, lg: 50% width) -->
+                        <div class="col-sm-12 col-lg-6 d-flex flex-column align-items-center">
+                            <!-- HTML -->
+                            <article class="d-flex justify-content-center w-75 my-2">
+                                <img src="assets/checkmark.png" class="icon" alt="Checkmark">
+                                <div>
+                                    <h5>HTML</h5>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <!-- CSS -->
+                            <article class="d-flex justify-content-center w-75 my-2">
+                                <img src="assets/checkmark.png" class="icon" alt="Checkmark">
+                                <div>
+                                    <h5>CSS</h5>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <!-- Bootstrap -->
+                            <article class="d-flex justify-content-center w-75 my-2">
+                                <img src="assets/checkmark.png" class="icon" alt="Checkmark">
+                                <div>
+                                    <h5>Bootstrap</h5>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <!-- JavaScript -->
+                            <article class="d-flex justify-content-center w-75 my-2">
+                                <img src="assets/checkmark.png" class="icon" alt="Checkmark">
+                                <div>
+                                    <h5>JavaScript</h5>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Right Column (sm: full width, lg: 50% width) -->
+                        <div class="col-sm-12 col-lg-6 d-flex flex-column align-items-center">
+                            <!-- React -->
+                            <article class="d-flex justify-content-center w-75 my-2">
+                                <img src="assets/checkmark.png" class="icon" alt="Checkmark">
+                                <div>
+                                    <h5>React</h5>
+                                    <p>Beginner</p>
+                                </div>
+                            </article>
+                            <!-- Python -->
+                            <article class="d-flex justify-content-center w-75 my-2">
+                                <img src="assets/checkmark.png" class="icon" alt="Checkmark">
+                                <div>
+                                    <h5>Python</h5>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <!-- SQL -->
+                            <article class="d-flex justify-content-center w-75 my-2">
+                                <img src="assets/checkmark.png" class="icon" alt="Checkmark">
+                                <div>
+                                    <h5>SQL</h5>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <!-- GitHub -->
+                            <article class="d-flex justify-content-center w-75 my-2">
+                                <img src="assets/checkmark.png" class="icon" alt="Checkmark">
+                                <div>
+                                    <h5>GitHub</h5>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </article>
+
 
     <!-- Contact Me  -->
 
