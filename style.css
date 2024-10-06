@@ -1,9 +1,8 @@
-.image{
+.image {
   display: flex;
   justify-content: center;
-
 }
-.img-round{
+.img-round {
   border-radius: 50%;
 }
 .nav-link {
@@ -13,7 +12,7 @@
 }
 
 .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -22,31 +21,34 @@
   bottom: -1px; /* Adjusts the space between the link and underline */
   transition: width 0.3s ease;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .nav-link:hover::after {
   width: 100%;
 }
-.btn{
+.btn {
   border-radius: 40%;
 }
-.custom-size{
+.custom-size {
   max-width: 10%;
 }
-.img-radius{
-  border-radius:20px;
+.img-radius {
+  border-radius: 20px;
 }
-.icon{
-  width: 40px; 
+.icon {
+  width: 40px;
   height: 40px;
 }
-.margin{
+.margin {
   margin-right: 10px;
 }
-.empty-padding{
+.empty-padding {
   padding: 300px;
 }
-.pop-overlay{
- display: none;
+.pop-overlay {
+  display: none;
   position: fixed;
   background-color: black;
   opacity: 0.8;
@@ -54,10 +56,8 @@
   width: 100%;
   top: 0;
   left: 0;
-
 }
-.side-bar{
-  
+.side-bar {
   background-color: #1d1a1d;
   position: fixed;
   top: 0;
@@ -66,7 +66,7 @@
   height: 100%;
   z-index: 2;
   color: white;
-  transition: 1s ;
+  transition: 1s;
 }
 .nav-link {
   position: relative;
@@ -75,7 +75,7 @@
 }
 
 .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
