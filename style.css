@@ -88,3 +88,20 @@ html {
 .nav-link:hover::after {
   width: 100%;
 }
+.project {
+  width: 500px;
+}
+.view {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 5%;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.relative {
+  position: relative;
+}
+a .github-link {
+  width: 5%;
+}
