@@ -105,3 +105,11 @@ html {
 a .github-link {
   width: 5%;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+  text-decoration: none;
+}
+.cursor-pointer a {
+  text-decoration: none;
+}
